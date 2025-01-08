@@ -1,4 +1,4 @@
-package software.ulpgc.imageviewer.io;
+package software.ulpgc.imageviewer.architecture.io;
 
 public interface ImageDeserializer {
     Object deserialize(byte[] bytes);

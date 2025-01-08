@@ -1,8 +1,8 @@
 package software.ulpgc.imageviewer.apps.windows;
-import software.ulpgc.imageviewer.control.NextImageCommand;
-import software.ulpgc.imageviewer.control.PreviousImageCommand;
-import software.ulpgc.imageviewer.io.FileImageLoader;
-import software.ulpgc.imageviewer.model.Image;
+import software.ulpgc.imageviewer.architecture.control.NextImageCommand;
+import software.ulpgc.imageviewer.architecture.control.PreviousImageCommand;
+import software.ulpgc.imageviewer.architecture.io.FileImageLoader;
+import software.ulpgc.imageviewer.architecture.model.Image;
 import java.io.File;
 
 public class Main {

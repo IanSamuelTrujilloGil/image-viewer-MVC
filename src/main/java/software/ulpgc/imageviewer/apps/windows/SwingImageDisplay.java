@@ -1,8 +1,8 @@
 package software.ulpgc.imageviewer.apps.windows;
-import software.ulpgc.imageviewer.io.ImageDeserializer;
-import software.ulpgc.imageviewer.model.Image;
-import software.ulpgc.imageviewer.view.ImageDisplay;
-import software.ulpgc.imageviewer.view.ViewPort;
+import software.ulpgc.imageviewer.architecture.io.ImageDeserializer;
+import software.ulpgc.imageviewer.architecture.model.Image;
+import software.ulpgc.imageviewer.architecture.view.ImageDisplay;
+import software.ulpgc.imageviewer.architecture.view.ViewPort;
 import javax.swing.*;
 import java.awt.*;
 
