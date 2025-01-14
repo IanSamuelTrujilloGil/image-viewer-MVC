@@ -1,6 +1,6 @@
-package software.ulpgc.imageviewer.architecture.control;
+package software.ulpgc.imageviewer.mvc.architecture.control;
 
-import software.ulpgc.imageviewer.architecture.view.ImageDisplay;
+import software.ulpgc.imageviewer.mvc.architecture.view.ImageDisplay;
 
 public class PreviousImageCommand implements Command{
     private final ImageDisplay imageDisplay;

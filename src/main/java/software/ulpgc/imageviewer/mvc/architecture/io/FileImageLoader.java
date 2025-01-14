@@ -1,6 +1,6 @@
-package software.ulpgc.imageviewer.architecture.io;
+package software.ulpgc.imageviewer.mvc.architecture.io;
 
-import software.ulpgc.imageviewer.architecture.model.Image;
+import software.ulpgc.imageviewer.mvc.architecture.model.Image;
 
 import java.io.File;
 import java.io.FileFilter;

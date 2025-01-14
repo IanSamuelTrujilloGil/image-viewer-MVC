@@ -1,6 +1,6 @@
-package software.ulpgc.imageviewer.apps.windows;
+package software.ulpgc.imageviewer.mvp.apps.windows;
 
-import software.ulpgc.imageviewer.architecture.control.Command;
+import software.ulpgc.imageviewer.mvp.architecture.control.Command;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
-import software.ulpgc.imageviewer.architecture.model.Image;
+
 
 public class MainFrame extends JFrame {
     private final Map<String, Command> commandMap;
@@ -65,8 +65,5 @@ public class MainFrame extends JFrame {
         return imageDisplay;
     }
 
-    public MainFrame displayImage(Image image) {
-        imageDisplay.display(image);
-        return this;
-    }
+
 }

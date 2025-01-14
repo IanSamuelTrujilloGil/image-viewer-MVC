@@ -11,7 +11,7 @@
     <project.groupId>software.ulpgc</project.groupId>
     <project.artifactId>imageviewer</project.artifactId>
     <project.version>1.0-SNAPSHOT</project.version>
-    <windowsMainClass>${project.groupId}.${project.artifactId}.apps.windows.Main</windowsMainClass>
+    <windowsMainClass>${project.groupId}.${project.artifactId}.mvp.apps.windows.Main</windowsMainClass>
 </properties>
 
 <groupId>${project.groupId}</groupId>
